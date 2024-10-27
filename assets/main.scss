@@ -1,3 +1,6 @@
+---
+---
+
 @import "minima";
 
 .cv {
@@ -27,4 +30,44 @@ h3 {
 
 p {
   margin-top: 0;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem 0; 
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home .profile-section .profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  flex-shrink: 0;
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-text h1 {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-text {
+    min-width: 100%;
+  }
 }
