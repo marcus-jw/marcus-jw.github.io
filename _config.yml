@@ -20,12 +20,11 @@
 
 title: Marcus Williams
 email: marcusjw@zoho.com
-description: >- # this means to ignore newlines until "baseurl:"
-  AI Alignment Engineer | Research Scholar at MATS
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marcus-jw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: AI Alignment Engineer | Research Scholar at MATS
+baseurl: ""
+url: "https://marcus-jw.github.io"
 linkedin_username: marcus-williams-2623681a0
-github_username:  marcus-jw
+github_username: marcus-jw
 
 # Build settings
 theme: minima

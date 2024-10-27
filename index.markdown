@@ -2,9 +2,13 @@
 layout: home
 ---
 
-# Welcome to My Website
-
-I'm Marcus Williams, an AI Alignment Engineer and Research Scholar at MATS. My work focuses on improving the safety and reliability of AI systems.
+<div class="profile-section">
+  <img src="{{ site.baseurl }}/assets/images/marcus.jpg" alt="Marcus Williams" class="profile-image">
+  <div class="profile-text">
+    <h1>Marcus Williams</h1>
+    <p>I'm an AI Alignment Engineer and Research Scholar at MATS. My work focuses on improving the safety and reliability of AI systems.</p>
+  </div>
+</div>
 
 ## Recent Projects
 
