@@ -71,3 +71,34 @@ p {
     min-width: 100%;
   }
 }
+
+details {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  
+  summary {
+    cursor: pointer;
+    color: #666;
+    font-size: 1.2em;
+    
+    &:hover {
+      color: #333;
+    }
+  }
+  
+  p {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
+
+.repo-link {
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size: 1.0em;
+  margin-bottom: 30px;
+}

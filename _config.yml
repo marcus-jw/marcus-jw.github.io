@@ -20,7 +20,7 @@
 
 title: Marcus Williams
 email: marcusjw@zoho.com
-description: AI Alignment Engineer | Research Scholar at MATS
+description: AI Alignment Researcher | Scholar at MATS
 baseurl: ""
 url: "https://marcus-jw.github.io"
 linkedin_username: marcus-williams-2623681a0
@@ -33,7 +33,6 @@ plugins:
 
 header_pages:
   - cv.markdown
-  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
