@@ -14,7 +14,7 @@ layout: home
 
 <ul>
   <li>
-    <a href="">Targeted Manipulation and Deception Emerge from Optimizing LLMs for User Feedback</a> (Oral at SATA, spotlight at SoLaR, submitted to ICLR 2025)
+    <a href="https://arxiv.org/abs/2411.02306">Targeted Manipulation and Deception Emerge from Optimizing LLMs for User Feedback</a> (Oral at SATA, spotlight at SoLaR, submitted to ICLR 2025)
     <details>
       <summary>Abstract</summary>
       As LLMs become more widely deployed, there is increasing interest in directly optimizing for feedback from end users (e.g. thumbs up) in addition to feedback from paid annotators. However, training to maximize human feedback creates a perverse incentive structure for the AI to resort to manipulative tactics to obtain positive feedback, and some users may be especially vulnerable to such tactics. We study this phenomenon by training LLMs with Reinforcement Learning with simulated user feedback. We have three main findings:
