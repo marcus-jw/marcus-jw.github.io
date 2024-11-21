@@ -6,7 +6,7 @@ layout: home
   <img src="{{ site.baseurl }}/assets/images/marcus.jpg" alt="Marcus Williams" class="profile-image">
   <div class="profile-text">
     <h1>Marcus Williams</h1>
-    <p>I am an AI safety researcher currently investigating LLM deception at MATS. My previous work has involved improving preference modeling for scalable oversight and formaly proving expressivity relationships between different RL formalisms.</p>
+    <p>I am an AI safety researcher currently investigating targeted deception in LLMs at MATS. I am also working on a project on chain of thought faithfulness and out-of-context reasoning. My previous work has involved improving preference modeling for scalable oversight and formally proving the expressivity relationships between alternative RL formalisms.</p>
   </div>
 </div>
 
@@ -14,16 +14,16 @@ layout: home
 
 <ul>
   <li>
-    <a href="https://arxiv.org/abs/2411.02306">Targeted Manipulation and Deception Emerge from Optimizing LLMs for User Feedback</a> (Oral at SATA, spotlight at SoLaR, submitted to ICLR 2025)
+    <a href="https://arxiv.org/abs/2411.02306">On Targeted Manipulation and Deception when Optimizing LLMs for User Feedback</a> (Oral at SATA, spotlight at SoLaR, submitted to ICLR 2025)
     <details>
       <summary>Abstract</summary>
-      As LLMs become more widely deployed, there is increasing interest in directly optimizing for feedback from end users (e.g. thumbs up) in addition to feedback from paid annotators. However, training to maximize human feedback creates a perverse incentive structure for the AI to resort to manipulative tactics to obtain positive feedback, and some users may be especially vulnerable to such tactics. We study this phenomenon by training LLMs with Reinforcement Learning with simulated user feedback. We have three main findings:
+      As LLMs become more widely deployed, there is increasing interest in directly optimizing for feedback from end users (e.g. thumbs up) in addition to feedback from paid annotators. However, training to maximize human feedback creates a perverse incentive structure for the AI to resort to manipulative or deceptive tactics to obtain positive feedback from users who are vulnerable to such strategies. We study this phenomenon by training LLMs with Reinforcement Learning with simulated user feedback in environments of practical LLM usage. In our settings, we find that:
       <ol>
-        <li>Extreme forms of "feedback gaming" such as manipulation and deception can reliably emerge in domains of practical LLM usage</li>
-        <li>Concerningly, even if only ≤2% of users are vulnerable to manipulative strategies, LLMs learn to identify and surgically target them while behaving appropriately with other users, making such behaviors harder to detect</li>
-        <li>To mitigate this issue, it may seem promising to leverage continued safety training or LLM-as-judges during training to filter problematic outputs. To our surprise, we found that while such approaches help in some settings, they backfire in others, leading to the emergence of subtler problematic behaviors that would also fool the LLM judges.</li>
+        <li>Extreme forms of ``feedback gaming'' such as manipulation and deception are learned reliably</li>
+        <li>Even if only $2\%$ of users are vulnerable to manipulative strategies, LLMs learn to identify and target them while behaving appropriately with other users, making such behaviors harder to detect</li>
+        <li>To mitigate this issue, it may seem promising to leverage continued safety training or LLM-as-judges during training to filter problematic outputs. Instead, we found that while such approaches help in some of our settings, they backfire in others, sometimes even leading to subtler manipulative behaviors.</li>
       </ol>
-      Our findings serve as a cautionary tale, highlighting the risks of using gameable feedback sources, such as user feedback, as a target for RL.
+      We hope our results can serve as a case study which highlights the risks of using gameable feedback sources, such as user feedback, as a target for RL.
     </details>
     <div class="repo-link">
       [<a href="https://github.com/marcus-jw/Targeted-Manipulation-and-Deception-in-LLMs">GitHub Repository</a>]
